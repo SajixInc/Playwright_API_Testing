@@ -1,7 +1,7 @@
 
 <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/lifeeazy-logo1.png" align="right" width="250"/> <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*gMiUPuRGC36nxZHe2zthOg.png" width="180"/> 
 
-<h1 font-size="50px" align="center">Automation Testing With Playwright Python</h1>
+<h1 font-size="50px" align="center">API Testing Via Playwright Using Python</h1>
 
 Playwright is a Node.js library that enables automation of web browsers (including Chrome, Firefox, and Safari) for end-to-end testing of web applications. While Playwright is primarily designed to be used with JavaScript, it is possible to use it with Python as well by using the py_playwright library, which provides a Python API for Playwright.
 
