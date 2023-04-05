@@ -70,10 +70,10 @@ def test_get_example(api_request_context: APIRequestContext):
     wb = load_workbook("Report.xlsx", data_only=True)
     sh = wb["API"]
     d = sh.max_row
-    endpoint = 'https://jsonplaceholder.typicode.com/posts/1'
+    endpoint = 'https://jsonplaceholder.typicode.com/posts/getbyid'
     ### In place of getbyid you have to give which id details needs tobe get
     get_todo = api_request_context.get(
-        f"https://jsonplaceholder.typicode.com/posts/getbyid",  headers=headers
+        f"https://jsonplaceholder.typicode.com/posts/1",  headers=headers
     )
 
     test1 = get_todo.json()
