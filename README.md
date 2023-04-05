@@ -155,7 +155,7 @@ To run this script, need to be in directory and run the following command :
 
 <img src = "https://user-images.githubusercontent.com/109729440/223346253-23cd14b2-0d39-40d9-88b9-5010d3bd9dfc.png" width=1000>
 
-# Excel Report for Playwright:
+# Playwright Report In Excel:
 
 Playwright is a open-source framework that allows you to automate and test web applications. Playwright Excel generation feature allows users to generate Excel spreadsheet using openpyxl library. It can also be used to read from a file and write to a file which can be in xlsx format.
 
