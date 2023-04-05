@@ -1,10 +1,19 @@
-![image](https://vivifyassets.s3.ap-south-1.amazonaws.com/lifeeazy-logo1.png)
 
-# Automation Testing With  Playwright Python
+<img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/lifeeazy-logo1.png" align="right" width="250"/> <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*gMiUPuRGC36nxZHe2zthOg.png" width="180"/> 
 
-Playwright is a Node.js library that enables automation of web browsers (including Chrome, Firefox, and Safari) for end-to-end testing of web applications. While Playwright is primarily designed to be used with JavaScript, it is possible to use it with Python as well by using the py_playwright library, which provides a Python API for Playwright.
+<h1 font-size="50px" align="center">API Testing Via Playwright Using Python</h1>
 
-# Installation :
+Playwright is a opensource framework that provides a high-level capability to enable automation testing. It also allows you to write scripts in Python that can control web browsers and perform various tasks such as filling out forms, clicking buttons, navigating pages, and taking screenshots.
+
+Playwright offers several advantages over other browser automation tools:
+- It supports multiple browsers, which means you can test your web application on different browsers using the same script.
+- It has a simple and intuitive API that makes it easy to use even for beginners.
+- It provides better performance and reliability compared to other tools.
+In summary, Playwright is a powerful and flexible tool for automating web browsers in Python, and it can be used for a wide range of tasks such as testing, web scraping, and web automation.
+
+Playwright enables automation of web browsers (including Chrome, Firefox, and Safari) for end-to-end testing of web applications. While Playwright is primarily designed to be used with JavaScript, it is possible to use it with Python as well by using the py_playwright library, which provides a Python API for Playwright.
+
+# How to Installation :
 
 Install Playwright and its dependencies using pip:
 
@@ -43,7 +52,7 @@ By default tests will be run on chromium. This can be configured via the CLI opt
 
     pytest
 
-# API testing :
+# How to use Playwright for API testing :
 
 Playwright can be used to get access to the REST API of your application.
 
@@ -66,7 +75,7 @@ The following example demonstrates how to use Playwright to test issues creation
 
 # Configure :
 
-VivifyHealthCare API requires authorization, so we'll configure the token once for all tests. While at it, we'll also set the baseURL to simplify the tests.
+In our case; VivifyHealthCare API requires authorization, so we can configure the token once for all tests. While at it, we'll also set the baseURL to simplify the tests. below example set is without JWT authentication.
 
     import pytest
     from playwright.sync_api import Playwright, APIRequestContext
