@@ -156,6 +156,48 @@ To run this script, need to be in directory and run the following command :
 <img src = "https://user-images.githubusercontent.com/109729440/223346253-23cd14b2-0d39-40d9-88b9-5010d3bd9dfc.png" width=1000>
 
 
+
+# Playwright Report In HTML:
+
+Playwright HTML Report is a built in reporting mechanism to generate an HTML report of the test results. This report contains information about the test results, including the total number of tests run, status of each test case, the number of passed and failed, tests, any errors, and the duration of test run.
+
+- To generate a Playwright HTML report using Python, you need to use a testing framework such as Pytest.
+- Support for pytest-metadata and pytest-trio
+- In this application, the test report is created as an HTML file that can be viewed as a webpage.
+- Playwright reporting gives you huge flexibility in generating reports in different patterns based on your need and use case.
+    
+# Advantages of Playwright HTML Report:
+
+- Easy to use
+- Detailed reports
+- Multi-Platform support
+- Time saving
+    
+    These are the many tools and frameworks available for generating Playwright HTML using Python.Some popular options include Pytest-HTML, which provides a Pytest plugin for generating HTML reports.These benefits can help developers save time and effort while ensuring that their applications are safe.
+    
+# To generate an Playwright HTML Report using python:
+
+- Install the pytest plugin:
+
+        pip install pytest-reporter-html1
+
+- To Run:
+
+    Specify the html1 template and the output path of the report:
+
+        pytest --template=html1/index.html --report=report.html
+
+    A test report will be generated using 'report.html1'. You can view the test results by opening this file in a web browser.
+    
+   # Results:
+    
+    <img src = "https://user-images.githubusercontent.com/109802337/233002260-212ac17a-bcfc-47fc-9549-5bacb46f969c.png" width=1000>
+    
+    
+    
+    <img src = "https://user-images.githubusercontent.com/109802337/233001906-a64b81ab-fa36-4f46-a520-0a6643384fe0.png" width=1000>
+
+
 <p align="center">
 <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
 
@@ -164,5 +206,4 @@ Tech-Stack provides a space for discussions on a variety of topics including pro
 <img src="https://blogs.vivifyhealthcare.com/wp-content/uploads/2023/03/Discord-1.png" margin_left="100"/>  
 
 [Invitation link](https://lnkd.in/gmkMQnZD)
-  ....
 
