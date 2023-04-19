@@ -160,3 +160,10 @@ To run this script, need to be in directory and run the following command :
 <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
 </p>
 
+Tech-Stack provides a space for discussions on a variety of topics including product reviews, software development, and emerging technologies. Join our community, simply click on the invitation link below and follow the prompts to create your account. We look forward to welcoming you to our community! 
+
+<img src="https://blogs.vivifyhealthcare.com/wp-content/uploads/2023/03/Discord-1.png" margin_left="100"/>  
+
+[Invitation link](https://lnkd.in/gmkMQnZD)
+
+
