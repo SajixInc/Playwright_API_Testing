@@ -155,7 +155,7 @@ To run this script, need to be in directory and run the following command :
 
 <img src = "https://user-images.githubusercontent.com/109729440/223346253-23cd14b2-0d39-40d9-88b9-5010d3bd9dfc.png" width=1000>
 
-# Multiple Test Cases in Automated API Testing via Playwright
+# Multiple Test Cases Execution via Playwright
 
 Multiple test cases in automated API testing refer to a set of individual tests that are designed to validate the functionality,behaviour, and performance of an API across various scenarios.
 
