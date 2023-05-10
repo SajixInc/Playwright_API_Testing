@@ -155,8 +155,49 @@ To run this script, need to be in directory and run the following command :
 
 <img src = "https://user-images.githubusercontent.com/109729440/223346253-23cd14b2-0d39-40d9-88b9-5010d3bd9dfc.png" width=1000>
 
+# Multiple Test Cases in Automated API Testing via Playwright
 
+Multiple test cases in automated API testing refer to a set of individual tests that are designed to validate the functionality,behaviour, and performance of an API across various scenarios.
+
+- First thing, while naming your test files in the Python pytest framework, you need to make sure that the file names start with "test_".
+
+-  All endpoints should be tested to make sure that they are working properly.
+
+- Write individual test cases to verify each endpoint and API call.
+- Assertions should be used to verify the expected output of the API.
+
+
+# Benefits:
+There are multiple benefits of automating API testing test cases:
+
+- Faster execution, Saving time & effort
+
+- Allows for faster bug fixes
+
+- Earlier validation of correctness in response and data
+
+- Better speed and coverage of testing
+ If you are using excel, then make a document for each test case on excel sheet of the workbook where each test case describes one complete test flow.
+
+
+# How to check endpoint working or not?
+- If the API is working, you should receive a response in the form of a 200 status code and a related message. 
+- If the API is not working, you may see a different status code indicating the error.
+ Once you have established that the API is working, you can begin making requests to specific endpoints and parameters within the API.
+
+# How to Write Test Cases?
+Fields:
+
+- Test case id
+- Pre-condition
+- Flow: login flow,appointment flow etc..
+- API type: User or Partner
+- Expected Result
+- Actual result
+- Status: Pass or Fail
+
+# Results:
 <p align="center">
-<img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
+<img src="https://github.com/vivifyhealthcare/Playwright_API_Testing/assets/109802337/b5a757ef-6bf6-4950-ad79-3f7b0c4b0ce7.png" width=1000>
 </p>
 
