@@ -15,7 +15,7 @@ class InputModel(models.Model):
     objects = models.Manager()
 
     class Meta:
-        db_table = 'Input_IvinProData'
+        db_table = 'Poc_Input_IvinPro'
 
 
 class lifeeazyModel(models.Model):
@@ -32,4 +32,4 @@ class lifeeazyModel(models.Model):
     objects = models.Manager()
 
     class Meta:
-        db_table = 'Input_LifeeazyData'
+        db_table = 'Poc_Input_Lifeeazy'
